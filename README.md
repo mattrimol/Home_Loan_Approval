@@ -1,10 +1,3 @@
 # Home Loan Approval - A Classification Problem
 
-**Resources:**
-
-[Slide Deck from Presentation](https://github.com/mattrimol/Home_Loan_Approval/blob/main/slides.pdf)
-
-[Project Writeup](https://github.com/mattrimol/Home_Loan_Approval/blob/main/writeup.pdf)
-
-[All code contained in this notebook](https://github.com/mattrimol/Home_Loan_Approval/blob/main/ca_housing.ipynb)
-
+Using data obtained from the Consumer Financial Protection Bureau (CFPB), I created a classification model using gradient boosted trees with the Python library XGBoost. The data contained information regarding mortgage loan applications in California for the year 2017. Using the features provided as well as engineered features, my model predicts whether or not a prospective applicant will be approved for a loan. Such a model could be useful for the CFPB to provide a resource to consumers who are thinking about buying a home, but are unsure where they stand with regards to being approved for a loan. This model could help a consumer gauge their likelihood of being approved, before going through the entire application process.
